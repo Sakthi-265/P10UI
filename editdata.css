@@ -1,0 +1,75 @@
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 80px; /* Adjust based on your navbar height */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Controls */
+.form-label {
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+    
+    .container {
+        margin-top: 60px; /* Adjust based on your navbar height */
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        text-align: left;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}

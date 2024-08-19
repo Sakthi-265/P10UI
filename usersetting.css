@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* Light gray background for body */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333; /* Dark gray for navbar background */
+}
+
+.navbar-brand {
+    color: #fff; /* White text for brand */
+}
+
+.navbar-brand:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+.navbar-text {
+    color: #fff; /* White text for user info */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White text for nav links */
+}
+
+.navbar-nav .nav-link.active {
+    color: #007bff; /* Blue color for active link */
+}
+
+.table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.table thead th {
+    background-color: #007bff; /* Blue background for table header */
+    color: #fff; /* White text for header */
+    text-align: center;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+.table tbody tr:hover {
+    background-color: #e0e0e0; /* Gray background on hover */
+}
+
+.table .btn-warning {
+    background-color: #28a745; /* Green for edit button */
+    border-color: #28a745;
+    color: #fff;
+}
+
+.table .btn-warning:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.table .btn-danger {
+    background-color: #dc3545; /* Red for remove button */
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.table .btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.floating-input {
+    background-color: #333; /* Dark gray background for floating input */
+    color: #fff; /* White text */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 300px;
+    display: none;
+}
+
+.floating-input input {
+    border: 1px solid #555; /* Darker gray border for input */
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% - 22px); /* Adjust for padding */
+    margin-bottom: 10px;
+}
+
+.floating-input button {
+    background-color: #007bff; /* Blue background for button */
+    border: none;
+    color: #fff; /* White text for button */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.floating-input button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
